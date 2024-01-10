@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF">
+    <meta http-equiv="X-UA-Compartible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Boston's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f396240798.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ------------------------head----------------------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><img src="images/logo1.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer </p>
+                <h1>Hi, I am <span>Boston Mwansa</span><br>and welcome to my Portfolio.</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------------about--------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p><br>As a Computer Scientist, my primary strength lies in an inclusive
+                        approach to learning, cultivating a profound understanding of complex
+                        concepts and a knack for effective debugging. With hands-on expertise
+                        in full-stack development (Java, Python, HTML, C++, JavaScript), I bring
+                        expertise and leadership to drive innovation and make it a priority to meet
+                        set goals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces.</li>
+                            <li><span>Web Development</span><br>Web App Development.</li>
+                            <li><span>App Development</span><br>Building androids and IOS apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Present</span><br>Tech Program Lead at 30, 000 FEET.</li>
+                            <li><span>2022 - 2022</span><br>Programming Instructor at 30,000 FEET.</li>
+                            <li><span>2021</span><br>Tech Developer Trainee at Sponsors for Educational Opportunity.
+                            </li>
+                            <li><span>2021</span><br>Tech Consultant at Target.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Metropolitan State University, BS Computer Science.</li>
+                            <li><span>2017</span><br>Libala Secondary School, High school Diploma.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <p> I enjoy designing websites I enjoy designing websites I enjoy designing websites!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-object-ungroup"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> I enjoy designing websites I enjoy designing websites I enjoy designing websites!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p> I enjoy designing websites I enjoy designing websites I enjoy designing websites!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h2>Day Trading</h2>
+                    <p> Ask me about day trading and Everything Forex!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        <!-- -----------portfolio--------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app does what it is supposed to the way it is supposed to. Check out here.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app does what it is supposed to the way it is supposed to. Check out here.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app does what it is supposed to the way it is supposed to. Check out here.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------------contact------------------- -->
+        <div id="contact">  
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-regular fa-envelope"></i> mwansa.puta.7@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +1 763-744-7911</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/boston_resume.pdf" download="Boston_Mwansa_Resume.pdf" class="btn btn2">Download Resume</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i>2024 Boston Mwansa</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            } 
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right= "0";
+            }
+            function closemenu(){
+                sidemenu.style.right= "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwlv-1V9NjEEfrEj788IHIlKGzgujx0haDqilbh6keBs2RruzpMlr4rnhsy7SRQCGgt/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+
+</html>
